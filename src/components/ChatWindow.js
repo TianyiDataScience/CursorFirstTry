@@ -72,7 +72,7 @@ Remember: Respond naturally in the user's language without any language markers 
             } catch (error) {
                 console.error('Detailed Error:', error);
                 setMessages(prev => [...prev, {
-                    text: `哎呀，我正想怼你呢，系统出问题了... ${error.message}`,
+                    text: `Sorry, there was an error processing your request: ${error.message}`,
                     sender: 'ai'
                 }]);
             }
