@@ -1,20 +1,38 @@
 {
-  "name": "FirstTry",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/TianyiDataScience/CursorFirstTry.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/TianyiDataScience/CursorFirstTry/issues"
-  },
-  "homepage": "https://github.com/TianyiDataScience/CursorFirstTry#readme"
+    "name": "book-recommendation-chat",
+    "version": "1.0.0",
+    "private": true,
+    "dependencies": {
+        "@google/generative-ai": "^0.21.0",
+        "@testing-library/jest-dom": "^5.14.1",
+        "@testing-library/react": "^13.0.0",
+        "@testing-library/user-event": "^13.2.1",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-scripts": "5.0.1",
+        "web-vitals": "^2.1.0"
+    },
+    "scripts": {
+        "start": "set PORT=3001 && react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
 }
